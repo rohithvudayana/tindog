@@ -1,0 +1,142 @@
+body{
+    font-family: Georgia, serif;
+}
+#title
+{
+    background-color: #ff4c68;
+    color: #FFF;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1
+{
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height:1;
+}
+h2{
+    font-family: fantasy;
+    font-size: 3rem;
+    line-height: 2;
+}
+h3{
+    font-family: fantasy;
+}
+p{
+    color: #8f8f8f;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: blue;
+}
+.nav-item{
+    padding: 18px;
+    font-size: 15px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    
+}
+ /* download buttons */
+ .download-button
+ {
+     margin: 5% 3% 5% 0;
+ }
+
+ /* title image */
+ .title-image{
+     width: 19%;
+     transform: rotate(25deg);
+     position: absolute;
+     right: 30%;
+ }
+/* features section */
+#features{
+    padding: 7% 15%;
+    /* text-align: center; */
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ee4e39;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+   color: #FFF;
+    text-align: center;
+    background-color: #84b1ec;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #84b1ec;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+    /* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+} 
+.pricing-column{
+    padding: 3% 2%;
+}  
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+    /* footer section */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+
+}
+.cta-heading{
+    color: #FFF;
+    font-family: fantasy;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    padding: 5% 12%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
